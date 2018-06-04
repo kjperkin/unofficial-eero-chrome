@@ -1,0 +1,14 @@
+{
+    "name": "Unofficial Eero Extension",
+    "version": "1.0",
+    "description": "Unofficial Eero Extension for Chrome",
+    "permissions": [
+        "activeTab", 
+        "declarativeContent",
+        "storage",
+        "cookies",
+        "https://api-user.e2ro.com/"
+     ],
+    "options_page": "options.html",
+    "manifest_version": 2
+}

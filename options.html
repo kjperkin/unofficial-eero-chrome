@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .tab {display: none;}
+            .tab.tab-initial { display: initial; }
+        </style>
+    <body>
+        <div id="login" class="tab tab-initial">
+            <input id="identifier" type="tel">
+            <button id="login-submit">Login</button>
+        </div>
+        <div id="verify" class="tab">
+            <input id="code" type="text">
+            <button id="verify-submit">Verify</button>
+        </div>
+        <div id="token-info" class="tab">
+            <p>Token: <span id="token"></span></p>
+        </div>
+        <div>
+            <button id="reset">Clear Token</button>
+        <script src="options.js"></script>
+    </body>
+</html>
